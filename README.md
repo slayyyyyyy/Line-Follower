@@ -3,6 +3,10 @@
 
 A line follower is a type of autonomous robot or vehicle (in our case a robot that sort of looks like a vehicle) designed to follow a visible path or line on the ground. This path is typically marked with a contrasting color, such as black on a white surface (like in our case) or vice versa. The robot uses sensors, usually infrared sensors, to detect the line and make adjustments to stay on course. The basic working principle involves the use of sensors to detect the contrast between the line and its surroundings. The sensors generate electrical signals based on the intensity of light reflected from the surface. By analyzing these signals, the robot can determine whether it is on the line, off to one side, or completely off the track. To navigate along the line, the robot employs control algorithms that enable it to make adjustments to its speed and direction in real-time. For example, if the robot drifts to the right of the line, it may increase the speed of the left motor or decrease the speed of the right motor to steer itself back onto the correct path. In our case, the robot uses PID control to stay on track.
 
+## What did we have to do?
+
+As teams of three, we had a day to spend on college grounds to put together a line follower that would successfully complete a given circuit within a timeframe. Ideally, for maximum grade, our little Lightning McQueen was supposed to complete the circuit in under 20 seconds. During grading, we were allowed to showcase the line follower 3 times before our grade was calculated using the best time from those 3 tries. Our luck made it so we missed the maximum grade by one second, but nonetheless it was a great performance since 3 hours before we presented the project nothing worked and we were about to blow up our battery two times.
+
 ## What is PID?
 
 PID (or Proportional-Integral-Derivative) is a feedback control system widely used in engineering and automation. PID controllers are commonly used in various applications to regulate and control processes, such as temperature, speed, position etc.
