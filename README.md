@@ -45,3 +45,7 @@ In truth, our team assigned values to kp, ki and kd by trial and error, until we
 9. Breadboard
 10. L293D driver
 11. 2 DC motors
+
+## How did we do it?
+
+We started by making the chassis of the line follower: using a foam board provided by our teacher, a 3D model to take 
