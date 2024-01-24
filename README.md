@@ -5,7 +5,7 @@ A line follower is a type of autonomous robot or vehicle (in our case a robot th
 
 ## What did we have to do?
 
-As teams of three, we had a day to spend on college grounds to put together a line follower that would successfully complete a given circuit within a timeframe. Ideally, for maximum grade, our little Lightning McQueen was supposed to complete the circuit in under 20 seconds. During grading, we were allowed to showcase the line follower 3 times before our grade was calculated using the best time from those 3 tries. Our luck made it so we missed the maximum grade by one second, but nonetheless it was a great performance since 3 hours before we presented the project nothing worked and we were about to blow up our battery two times.
+As teams of three, we had a day to spend on college grounds to put together a line follower that would successfully complete a given circuit within a timeframe. We hade to manually cut and glue together the "body" of our robot and attach to it the hardware parts. Ideally, for maximum grade, our little Lightning McQueen was supposed to complete the circuit in under 20 seconds. During grading, we were allowed to showcase the line follower 3 times before our grade was calculated using the best time from those 3 tries. Our luck made it so we missed the maximum grade by one second, but nonetheless it was a great performance since 3 hours before we presented the project nothing worked and we were about to blow up our battery two times.
 
 ## What is PID?
 
@@ -31,3 +31,17 @@ In truth, our team assigned values to kp, ki and kd by trial and error, until we
 4. **D control**: Add damping to the system by considering the rate of change of the error. <br/>
 5. **Combine PID Terms**: Calculate the PID output by summing the proportional, integral, and derivative terms with their respective coefficients : PID Output = (p * kp) + (i * ki) + (k * kd). <br/>
 6. **Apply PID and tune parameters**: Apply the PID output to adjust the speeds of the robot's motors which will results in corrections that bring the robot back to the line and fine-tune the gains experimentally to achieve the desired line-following performance.
+
+## What parts did we need?
+
+1. Arduino Uno
+2. Zip-ties (very importand an lifesaving)
+3. Powersource (in our case, a LiPo battery, or two if you worry about blowing up one of them)
+4. 2 rubber wheels
+5. QTR-8A reflectance sensor (detects how much infrared light is reflected from a nearby surface)
+6. Wires (especially male-female for the sensor)
+7. Ball caster
+8. Chassis or the body of the LF (DIY made)
+9. Breadboard
+10. L293D driver
+11. 2 DC motors
