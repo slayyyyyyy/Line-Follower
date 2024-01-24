@@ -51,7 +51,6 @@ In truth, our team assigned values to kp, ki and kd by trial and error, until we
 
 We started by making the chassis of the line follower: using a foam board provided by our teacher, a 3D model to take inspiration from and a cutter, we had to handmade the body of the LF the best we could. Putting our crafting skills at work, we managed to make a sturdy chassis for the robot in little over 2 hours. After a short pizza break, it was time to assemble the car. It took us a bit to figure out how to exactly connect everything, but we managed to do a fine job.
 
-![WhatsApp Image 2024-01-24 at 7 54 30 PM](https://github.com/slayyyyyyy/Line-Follower/assets/104028747/5deafe15-4283-40b4-b32b-0a4df5b88762)
-
+![WhatsApp Image 2024-01-24 at 7 54 30 PM](https://github.com/slayyyyyyy/Line-Follower/assets/104028747/e831e28d-18b1-4eec-86ee-6d00e78f1f6e)
 
 Then, with the code provided in the last laboratory, we started testing how it works. We soon realized it doesn't and it didn't take us long to figure out that the problem was the calibration, but it took us enough to figure out that we didn't attach the sensor as we should've; it couldn't read the ground since the foam board blocked it, so we had to grab the cutter and carve through our chassis again.
