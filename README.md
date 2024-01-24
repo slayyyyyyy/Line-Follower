@@ -64,3 +64,4 @@ Another pic of our car, this time with the battery we didn't blow up:
 
 ![WhatsApp Image 2024-01-24 at 6 57 19 PM](https://github.com/slayyyyyyy/Line-Follower/assets/104028747/cbf2b33e-4daa-4e27-b280-cb11c8f45c11)
 
+Project done in partnership with @anamaria1-png and @malinaalexa (team Slay).
