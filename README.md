@@ -16,3 +16,14 @@ How it works: <br/>
 3. **Derivative**: The derivative term is proportional to the rate of change of the error. It anticipates future behavior of the system by considering how quickly the error is changing. The derivative term helps to dampen the system's response, preventing overshooting and oscillations. <br/>
 
 A PID controller's output is the sum of these three terms, each adjusted by respective constants (proportional gain denoted by **kp**, integral gain denoted by **ki**, and derivative gain denoted by **kd**). The combination of these terms allows the controller to provide a more accurate and responsive control action, improving the system's stability and performance.
+
+## How did we use PID for our line follower?
+
+In truth, our team assigned values to kp, ki and kd by trial and error, until we finally hit the right set of values that would stabiilize our line follower. In reality, this is how a PID controller should work for a line follower: <br/>
+
+1. **Error Calculation**: Calculate the error, which is the difference between the desired position (center of the line) and the actual position of the robot based on sensor readings. <br/>
+2. **P control**: Adjust the robot's steering based on the proportional term. If the robot is to the right of the line, increase the left motor speed or decrease the right motor speed (and vice versa). The amount of adjustment is proportional to the error. <br/>
+3. **I control**: Address any persistent steady-state error by using the integral term. Sum up the errors over time and apply a correction to the motor speeds. <br/>
+4. **D control**: Add damping to the system by considering the rate of change of the error. <br/>
+5. **Combine PID Terms**: Calculate the PID output by summing the proportional, integral, and derivative terms with their respective coefficients : PID Output = (p * kp) + (i * ki) + (k * kd). <br/>
+6. **Apply PID and tune parameters**: Apply the PID output to adjust the speeds of the robot's motors which will results in corrections that bring the robot back to the line and fine-tune the gains experimentally to achieve the desired line-following performance.
